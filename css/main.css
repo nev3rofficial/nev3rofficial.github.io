@@ -1,36 +1,42 @@
+html, body {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
-  background-color: black;
+  background-color: #02010A;
   height: 100%;
 }
 
 .wrapper {
   background-color: #0A0528;
-  height: 100px;
+  height: 100vh;
   width: 100%;
+  min-height: 100%;
   align-self: center;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 0vh;
 }
 
 h1 {
   align-content: left;
-  font-size: 2.5em;
+  font-size: 4em;
   color: #F7F7FF;
   padding-left: 15%;
   padding-top: 5%;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
   font-variant: small-caps;
 }
 
 h2 {
   align-content: left;
-  font-size: 1em;
-  color: #623CEA;
+  font-size: 2em;
+  color: #F4BBD3;
   padding-left: 15%;
-  font-family: sans-serif;
-  font-weight: lighter;
+  font-family: "Jost", sans-serif;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=main.css.map */
