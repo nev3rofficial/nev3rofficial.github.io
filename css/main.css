@@ -1,3 +1,23 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #02010A;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #343439;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5E5E63;
+}
+
 html, body {
   padding: 0;
   margin-top: 0;
@@ -5,38 +25,69 @@ html, body {
 }
 
 body {
-  background-color: #02010A;
+  background-color: black;
   height: 100%;
 }
 
 .wrapper {
+  margin-top: 1.5vh;
   background-color: #0A0528;
-  height: 100vh;
+  height: 97.2vh;
   width: 100%;
   min-height: 100%;
   align-self: center;
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 1.3vh;
+  align-content: center;
+}
+
+.title {
+  transition: transform 1250ms;
+  transition-timing-function: ease;
+  width: 50vw;
+}
+
+.title:hover {
+  transform: translateX(-12.5vw);
 }
 
 h1 {
+  margin-bottom: 0;
+  margin-top: 0;
   align-content: left;
   font-size: 4em;
   color: #F7F7FF;
-  padding-left: 15%;
-  padding-top: 5%;
+  padding-left: 14.65vw;
+  padding-top: 10vh;
+  padding-bottom: 1vh;
   font-family: "Jost", sans-serif;
   font-weight: 200;
   font-variant: small-caps;
+  word-spacing: 0.3em;
+  width: 50vw;
+}
+
+#rectangle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15vw;
+  width: 12.5vw;
+  height: 0.4em;
+  background-color: #623CEA;
 }
 
 h2 {
+  margin-top: 1vh;
   align-content: left;
   font-size: 2em;
   color: #F4BBD3;
-  padding-left: 15%;
+  padding-left: 14.92vw;
   font-family: "Jost", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  word-spacing: 0.1em;
+  width: 50vw;
 }
 
 /*# sourceMappingURL=main.css.map */
