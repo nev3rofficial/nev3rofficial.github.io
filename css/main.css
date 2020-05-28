@@ -43,13 +43,11 @@ body {
 }
 
 .title {
-  transition: transform 1250ms;
-  transition-timing-function: ease;
+  transition: all 350ms ease-in-out;
   width: 50vw;
 }
-
 .title:hover {
-  transform: translateX(-12.5vw);
+  transform: scale(1.05);
 }
 
 h1 {
