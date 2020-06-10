@@ -9,13 +9,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #343439;
+  background: #202024;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5E5E63;
+  background: #343439;
 }
 
 html, body {
@@ -42,9 +42,16 @@ body {
   align-content: center;
 }
 
+.homelink {
+  text-decoration: none;
+  width: 50vw;
+  margin-right: 50vw;
+}
+
 .title {
   transition: all 250ms ease-in-out;
-  width: 50vw;
+  width: 50%;
+  margin-right: 50vw;
 }
 .title:hover {
   transform: scale(1.05);
@@ -71,7 +78,7 @@ h1 {
   margin-bottom: 0px;
   margin-left: 15vw;
   width: 12.5vw;
-  height: 0.4em;
+  height: 0.4%;
   background-color: #623CEA;
 }
 
@@ -86,6 +93,23 @@ h2 {
   font-stretch: ultra-expanded;
   word-spacing: 0.1em;
   width: 50vw;
+}
+
+.indextext {
+  margin-top: 2vh;
+  color: #F7F7FF;
+  font-family: "Exo 2", sans-serif;
+  font-size: 0.9em;
+  padding-left: 15vw;
+  line-height: 2;
+}
+
+.footer {
+  color: #2AB7CA;
+  text-align: center;
+  font-family: "Muli";
+  font-weight: 300;
+  font-size: 0.75em;
 }
 
 /*# sourceMappingURL=main.css.map */
