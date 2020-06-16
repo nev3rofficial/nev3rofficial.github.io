@@ -32,27 +32,32 @@ body {
 //  text-decoration: none;
 //}
 
-.homelink {
-  text-decoration: none;
-  width: 50vw;
-  margin-right: 50vw;
-  display: block;
-}
 
 .title {
-  transition: all 250ms ease-in-out;
   width: 50%;
   margin-right: 50vw;
+//  padding-top: 10vh;
   margin-bottom: 5vh;
-  &:hover {
-    transform: scale(1.05);
+  a {
+
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    &:hover {
+      transform: scale(1.035);
+    }
+    width: 30vw;
+    margin-left: 15vw;
+    margin-right: 50vw;
+    display: block;
   }
 }
 
 h1 {
   margin-bottom: 0;
   margin-top: 0;
-  margin-left: 14.65vw;
+  margin-left: -0.65vh;
+  margin-right: none;
+  //  margin-left: 14.65vw;
   align-content: left;
   font-size: 4.2em;
   color: #F7F7FF;
@@ -67,20 +72,22 @@ h1 {
 
 #rectangle {
   margin-top: 0px;
+  padding-top: none;
   margin-bottom: 0px;
-  margin-left: 15.1vw;
+  margin-right: 37.5vw;
+//  margin-left: 15.1vw;
   width: 12.5vw;
-  height: 0.4%;
+  height: 0.8%;
   background-color: #623CEA;
 
 }
 
 h2 {
-  margin-top: 1vh;
+  margin-top: 0vh;
   align-content: left;
   font-size: 2.2em;
   color: #F4BBD3;
-  margin-left: 14.95vw;
+//  margin-left: 14.95vw;
   font-family: 'Jost', sans-serif;
   font-weight: bold;
   font-stretch: ultra-expanded;
@@ -93,7 +100,7 @@ h2 {
   color: #F7F7FF;
   font-family: 'Exo', sans-serif;
   font-size: 0.9em;
-  padding-left: 15vw;
+  padding-left: 15.1vw;
   line-height: 2.758;
   font-weight: inherit;
 }
