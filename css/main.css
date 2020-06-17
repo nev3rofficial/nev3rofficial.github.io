@@ -1,21 +1,55 @@
-::-webkit-scrollbar {
-  width: 10px;
+.title {
+  width: 50%;
+  margin-right: 50vw;
+  margin-bottom: 5vh;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #02010A;
+.title a {
+  text-decoration: none;
+  transition: all 250ms ease-in-out;
+  width: 30vw;
+  margin-left: 15vw;
+  margin-right: 50vw;
+  display: block;
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #202024;
-  border-radius: 3px;
+.title a:hover {
+  transform: scale(1.035);
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #343439;
+.title h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: -0.325vW;
+  margin-right: none;
+  padding-right: -1;
+  align-content: left;
+  font-size: 4.2em;
+  color: #F7F7FF;
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
+  font-variant: small-caps;
+  word-spacing: 0.3em;
+  width: 50vw;
+}
+.title canvas {
+  margin-top: 0;
+  margin-bottom: 1vh;
+  margin-right: 37.5vw;
+  margin-left: 0.1vw;
+  width: 12.5vw;
+  height: 0.8%;
+  background-color: #623CEA;
+}
+.title h2 {
+  margin-top: 0vh;
+  align-content: left;
+  font-size: 2.2em;
+  color: #F4BBD3;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  word-spacing: 0.1em;
+  width: 50vw;
 }
 
 * {
@@ -67,8 +101,9 @@ body {
 .title h1 {
   margin-bottom: 0;
   margin-top: 0;
-  margin-left: -0.65vh;
+  margin-left: -0.325vW;
   margin-right: none;
+  padding-right: -1;
   align-content: left;
   font-size: 4.2em;
   color: #F7F7FF;
@@ -84,6 +119,7 @@ body {
   margin-top: 0;
   margin-bottom: 1vh;
   margin-right: 37.5vw;
+  margin-left: 0.1vw;
   width: 12.5vw;
   height: 0.8%;
   background-color: #623CEA;
@@ -105,17 +141,48 @@ body {
   color: #F7F7FF;
   font-family: "Exo", sans-serif;
   font-size: 0.9em;
-  padding-left: 15.1vw;
+  padding-left: 15.15vw;
   line-height: 2.758;
   font-weight: inherit;
 }
+.indextext a {
+  text-decoration: none;
+  color: #F4BBD3;
+  transition: all 250ms ease;
+}
+.indextext a:hover {
+  color: #623CEA;
+  transform: scale(2.025);
+}
 
-.footer {
+#footer {
+  align-content: center;
+  text-decoration: none;
   color: #2AB7CA;
   text-align: center;
   font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 0.75em;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #02010A;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #202024;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #343439;
 }
 
 /*# sourceMappingURL=main.css.map */

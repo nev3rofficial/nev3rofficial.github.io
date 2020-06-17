@@ -53,8 +53,9 @@ body {
   h1 {
     margin-bottom: 0;
     margin-top: 0;
-    margin-left: -0.65vh;
+    margin-left: -0.325vW;
     margin-right: none;
+    padding-right: -1;
     //  margin-left: 14.65vw;
     align-content: left;
     font-size: 4.2em;
@@ -68,14 +69,15 @@ body {
     width: 50vw;
   }
   canvas {
-    margin-top: 0;
-    margin-bottom: 1vh;
-    margin-right: 37.5vw;
-//    margin-left: 15.1vw;
-    width: 12.5vw;
-    height: 0.8%;
-    background-color: #623CEA;
-  }
+      margin-top: 0;
+      margin-bottom: 1vh;
+      margin-right: 37.5vw;
+      margin-left: 0.1vw;
+  //    margin-left: 15.1vw;
+      width: 12.5vw;
+      height: 0.8%;
+      background-color: #623CEA;
+    }
   h2 {
     margin-top: 0vh;
     align-content: left;
@@ -95,12 +97,24 @@ body {
   color: #F7F7FF;
   font-family: 'Exo', sans-serif;
   font-size: 0.9em;
-  padding-left: 15.1vw;
+  padding-left: 15.15vw;
   line-height: 2.758;
   font-weight: inherit;
+  a {
+    text-decoration: none;
+    color: #F4BBD3;
+    transition: all 250ms ease;
+
+    &:hover {
+      color: #623CEA;
+      transform: scale(2.025);
+    }
+  }
 }
 
-.footer {
+#footer {
+  align-content: center;
+  text-decoration: none;
   color: #2AB7CA;
   text-align: center;
   font-family: 'Muli', sans-serif;

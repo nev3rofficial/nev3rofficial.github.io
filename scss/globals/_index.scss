@@ -3,23 +3,3 @@
 @import "reset";
 @import "typography";
 @import "variables";
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #02010A;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #202024;
-  border-radius: 3px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #343439;
-}
