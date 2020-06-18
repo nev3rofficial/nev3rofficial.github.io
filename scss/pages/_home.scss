@@ -15,9 +15,11 @@ body {
 }
 
 .wrapper {
+  padding-bottom: 5vh;
   margin-top: 1.5vh;
   background-color: #0A0528;
-  height: 97vh;
+  height: 100%;
+  overflow: hidden;
   min-height: 100%;
   align-self: center;
   padding-left: 0;
@@ -110,7 +112,7 @@ body {
 
 #footer {
   margin-left: 30vw;
-  margin-right: 309vw;
+  margin-right: 30vw;
   margin-top: 0.2vh;
   margin-bottom: 0.8vh;
   padding-top: 0.4vh;

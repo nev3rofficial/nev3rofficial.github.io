@@ -1,0 +1,21 @@
+.singles {
+  margin-left: 15.15vw;
+  color: $white;
+  font-family: 'Jost', sans-serif;
+  word-spacing: 0.25em;
+  font-size: 1.3em;
+}
+
+.gallery {
+  margin-left: 14.6vw;
+  display: flex;
+  flex-direction: column;
+  .row {
+    display: flex;
+    justify-content: justify-content;
+    width: 100%;
+  }
+  iframe {
+    margin: 0.5vw;
+  }
+}

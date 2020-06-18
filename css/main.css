@@ -69,9 +69,11 @@ body {
 }
 
 .wrapper {
+  padding-bottom: 5vh;
   margin-top: 1.5vh;
   background-color: #0A0528;
-  height: 97vh;
+  height: 100%;
+  overflow: hidden;
   min-height: 100%;
   align-self: center;
   padding-left: 0;
@@ -163,7 +165,7 @@ body {
 
 #footer {
   margin-left: 30vw;
-  margin-right: 309vw;
+  margin-right: 30vw;
   margin-top: 0.2vh;
   margin-bottom: 0.8vh;
   padding-top: 0.4vh;
@@ -175,6 +177,28 @@ body {
   font-size: 0.75em;
   display: flex;
   justify-content: center;
+}
+
+.singles {
+  margin-left: 15.15vw;
+  color: #F7F7FF;
+  font-family: "Jost", sans-serif;
+  word-spacing: 0.25em;
+  font-size: 1.3em;
+}
+
+.gallery {
+  margin-left: 14.6vw;
+  display: flex;
+  flex-direction: column;
+}
+.gallery .row {
+  display: flex;
+  justify-content: justify-content;
+  width: 100%;
+}
+.gallery iframe {
+  margin: 0.5vw;
 }
 
 ::-webkit-scrollbar {
