@@ -6,6 +6,8 @@ html, body {
 padding: 0;
 margin: 0;
 align-content: center;
+display: block;
+justify-content: center;
 }
 
 body {
@@ -36,12 +38,19 @@ body {
 }
 
 .title {
-  margin-right: 50vw;
-  margin-bottom: 5vh;
-  width: 50%;
+  margin-left: 0vw;
+  margin-right: 20vw;
+  margin-bottom: 0vh;
+  width: 75vw;
+  display: block;
   a {
-    margin-right: 50vw;
-    margin-left: 15vw;
+    margin-right: 0vw;;
+    margin-left: 14vw;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    width: 75vw;
+    height: -1%;
+    display: inline-flex;
     text-decoration: none;
     transition: all 250ms ease-in-out;
     &:hover {
@@ -54,10 +63,10 @@ body {
     margin-bottom: 0;
     margin-top: 0;
     margin-left: -0.325vW;
-    margin-right: none;
-    padding-right: -1;
     padding-top: 2vh;
     padding-bottom: 1vh;
+    width: 30vw;
+    display: inline;
     align-content: left;
     font-size: 4.2em;
     color: #F7F7FF;
@@ -70,7 +79,7 @@ body {
   canvas {
       margin-top: 0;
       margin-bottom: 1vh;
-      margin-right: 37.5vw;
+      margin-right: 15vw;
       margin-left: 0.1vw;
       width: 12.5vw;
       height: 0.8%;
@@ -78,8 +87,9 @@ body {
     }
   h2 {
     margin-top: 0vh;
-    margin-right: 20vw;
-    align-content: left;
+    margin-bottom: 0;
+    display: inline;
+    width: -1vw;
     font-size: 2.2em;
     color: #F4BBD3;
     font-family: 'Jost', sans-serif;
@@ -111,17 +121,21 @@ body {
 }
 
 #footer {
-  margin-left: 30vw;
-  margin-right: 30vw;
   margin-top: 0.2vh;
   margin-bottom: 0.8vh;
   padding-top: 0.4vh;
   padding-bottom: 0.8vh;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #2AB7CA;
   font-family: 'Muli', sans-serif;
   font-weight: 300;
   font-size: 0.75em;
+}
+
+.footer {
   display: flex;
   justify-content: center;
 }
