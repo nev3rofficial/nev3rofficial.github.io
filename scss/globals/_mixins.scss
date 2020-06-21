@@ -1,0 +1,8 @@
+@mixin font-face {
+  @font-face {
+    font-family: Finity;
+    src: url("../fonts/finity-9325.ttf");
+    src: url("..fonts/finity-9325.eot") format("eot"),
+    url("../fonts/finity-9325.svg") format("svg");
+  }
+}
