@@ -102,8 +102,12 @@ body {
   width: 50vw;
 }
 
-.indextext {
+.homebody {
   margin-top: 7.5vh;
+  margin-bottom: 10vh;
+  display: flex;
+}
+.homebody .indextext {
   padding-left: 15.15vw;
   color: #F7F7FF;
   font-family: "Exo", sans-serif;
@@ -111,14 +115,19 @@ body {
   line-height: 2.758;
   font-weight: inherit;
 }
-.indextext a {
+.homebody .indextext a {
   text-decoration: none;
   color: #623CEA;
   transition: all 250ms ease;
 }
-.indextext a:hover {
+.homebody .indextext a:hover {
   color: #F4BBD3;
   transform: scale(2.025);
+}
+.homebody img {
+  margin-top: 2.5vh;
+  margin-left: 5vw;
+  width: 40vw;
 }
 
 .bottomlinks {

@@ -102,23 +102,32 @@ body {
   }
 }
 
-.indextext {
+.homebody {
   margin-top: 7.5vh;
-  padding-left: 15.15vw;
-  color: #F7F7FF;
-  font-family: 'Exo', sans-serif;
-  font-size: 0.9em;
-  line-height: 2.758;
-  font-weight: inherit;
-  a {
-    text-decoration: none;
-    color: $blue;
-    transition: all 250ms ease;
+  margin-bottom: 10vh;
+  display: flex;
+  .indextext {
+    padding-left: 15.15vw;
+    color: #F7F7FF;
+    font-family: 'Exo', sans-serif;
+    font-size: 0.9em;
+    line-height: 2.758;
+    font-weight: inherit;
+    a {
+      text-decoration: none;
+      color: $blue;
+      transition: all 250ms ease;
 
-    &:hover {
-      color: $pink;
-      transform: scale(2.025);
+      &:hover {
+        color: $pink;
+        transform: scale(2.025);
+      }
     }
+  }
+  img {
+    margin-top: 2.5vh;
+    margin-left: 5vw;
+    width: 40vw;
   }
 }
 
