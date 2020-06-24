@@ -22,21 +22,22 @@
   }
 }
 */
-
-.platforms {
-  margin-top: 5vh;
+#concontent {
   h3 {
-    margin-left: 15vw;
     font-size: 1.25em;
     font-family: 'Jost', sans-serif;
     color: $white;
-
   }
+}
+
+.platforms {
+  margin-left: 15.15vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .image {
     margin-top: 5vh;
-    margin-left: 15vw;
     position: relative;
     width: 75vw;
 }
@@ -63,12 +64,12 @@
     content: attr(data-content);
     display: inline;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.15em;
+    font-size: 1.2em;
     width: 100%;
     color: $white;
     z-index: 1;
     padding: 4px 10px;
-    vertical-align: middle;
+    line-height: 25vh;
     text-align: center;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -83,5 +84,20 @@
   img {
     height: 100%;
     width: 100%;
+  }
+}
+
+.contact {
+  margin-left: 15.15vw;
+  margin-bottom: 10vh;
+  a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 0.1vw;
+    color: $blue;
+    transition: all 250ms ease-in-out;
+    &:hover {
+      color: $pink;
+    }
   }
 }
