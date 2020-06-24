@@ -7,7 +7,7 @@
 }
 
 .gallery {
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   margin-left: 14.6vw;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,9 @@
     display: flex;
     justify-content: justify-content;
     width: 100%;
+    iframe {
+      font-family: 'Ubuntu', cursive;
+    }
   }
   iframe {
     margin: 0.5vw;
