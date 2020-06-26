@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Finity';
+    src: url('../fonts/finity-9325-webfont.eot');
+    src: url('../fonts/finity-9325-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/finity-9325-webfont.woff') format('woff'),
+         url('../fonts/finity-9325-webfont.svg#finityregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Ultra';
+    src: url('../fonts/ultra-webfont.eot');
+    src: url('../fonts/ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ultra-webfont.woff') format('woff'),
+         url('../fonts/ultra-webfont.svg#ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -52,7 +74,7 @@ body {
     padding-bottom: 1vh;
     width: 75vw;
     height: -1%;
-    display: inline-flex;
+    display: inline;
     text-decoration: none;
     transition: all 250ms ease-in-out;
     &:hover {
@@ -62,18 +84,18 @@ body {
     display: block;
   }
   h1 {
-    margin-bottom: 0vh;
+    margin-bottom: 10vh;
     margin-top: 0;
-    margin-left: -0.2vW;
+    margin-left: -0.25vW;
     padding-top: 2vh;
     padding-bottom: 1vh;
-    width: 30vw;
+    width: 75vw;
     display: inline;
     align-content: left;
     font-size: 4.2em;
     color: #F7F7FF;
-    font-family: 'Jost', sans-serif;
-    font-weight: 200;
+    font-family: 'Ultra', sans-serif;
+    font-weight: 400;
     font-variant: small-caps;
     word-spacing: 0.3em;
     width: 50vw;
