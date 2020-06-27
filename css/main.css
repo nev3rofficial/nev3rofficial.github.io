@@ -105,15 +105,11 @@ body {
   align-content: left;
   font-size: 4.2em;
   color: #F7F7FF;
-  font-family: "Anurati", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-variant: small-caps;
   word-spacing: 0.3em;
   width: 50vw;
-}
-.title h1 span {
-  font-family: "PT Sans Caption";
-  font-size: 1.15em;
 }
 .title canvas {
   margin-top: 0;
