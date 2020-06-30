@@ -1,10 +1,75 @@
 .contacts {
   margin-left: 15vw;
-  margin-top: 5vh;
+  margin-top: 7.5vh;
   margin-bottom: 10vh;
   h3 {
     color: $white;
     font-family: 'Jost', sans-serif;
     font-size: 1.25em;
+    word-spacing: 0.25em;
+    span {
+      word-spacing: 1em;
+    }
+  }
+  .contactlinks {
+    margin-top: 5vh;
+    .email {
+      margin-bottom: 3vh;
+      a {
+        text-decoration: none;
+        font-size: 1em;
+        font-family: 'Ubuntu';
+        color: $blue;
+        transition: all 250ms ease-in-out;
+        &:hover {
+          color: $pink;
+        }
+      }
+    }
+    #contacttxt {
+      display: inline;
+      font-size: 1em;
+      font-family: 'Ubuntu';
+      color: $white;
+      float: left;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .phone {
+      position: relative;
+      input {
+        font-size: 1em;
+        margin-left: 1vw;
+        display: inline;
+        float: left;
+        background-color: $background;
+        border: none;
+        min-width: 5em;
+        max-width: 7em;
+        color: $white;
+        font-family: 'Ubuntu';
+      }
+      button {
+        margin-bottom: 0.5vh;
+        font-size: 1em;
+        cursor: pointer;
+        margin-left: 0.6vw;
+        color: $blue;
+        background-color: $background;
+        border: none;
+        font-family: 'Ubuntu';
+        transition: all 250ms ease-in-out;
+        &:hover {
+          color: $pink;
+        }
+      }
+      txt {
+        font-family: 'Ubuntu';
+        color: $white;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 0.65em;
+      }
+    }
   }
 }

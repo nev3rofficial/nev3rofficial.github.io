@@ -21,13 +21,78 @@
 }
 .contacts {
   margin-left: 15vw;
-  margin-top: 5vh;
+  margin-top: 7.5vh;
   margin-bottom: 10vh;
 }
 .contacts h3 {
   color: #F7F7FF;
   font-family: "Jost", sans-serif;
   font-size: 1.25em;
+  word-spacing: 0.25em;
+}
+.contacts h3 span {
+  word-spacing: 1em;
+}
+.contacts .contactlinks {
+  margin-top: 5vh;
+}
+.contacts .contactlinks .email {
+  margin-bottom: 3vh;
+}
+.contacts .contactlinks .email a {
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Ubuntu";
+  color: #623CEA;
+  transition: all 250ms ease-in-out;
+}
+.contacts .contactlinks .email a:hover {
+  color: #F4BBD3;
+}
+.contacts .contactlinks #contacttxt {
+  display: inline;
+  font-size: 1em;
+  font-family: "Ubuntu";
+  color: #F7F7FF;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contacts .contactlinks .phone {
+  position: relative;
+}
+.contacts .contactlinks .phone input {
+  font-size: 1em;
+  margin-left: 1vw;
+  display: inline;
+  float: left;
+  background-color: #0A0528;
+  border: none;
+  min-width: 5em;
+  max-width: 7em;
+  color: #F7F7FF;
+  font-family: "Ubuntu";
+}
+.contacts .contactlinks .phone button {
+  margin-bottom: 0.5vh;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: 0.6vw;
+  color: #623CEA;
+  background-color: #0A0528;
+  border: none;
+  font-family: "Ubuntu";
+  transition: all 250ms ease-in-out;
+}
+.contacts .contactlinks .phone button:hover {
+  color: #F4BBD3;
+}
+.contacts .contactlinks .phone txt {
+  font-family: "Ubuntu";
+  color: #F7F7FF;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.65em;
 }
 
 * {
