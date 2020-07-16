@@ -1,8 +1,9 @@
 .contacts {
   margin-left: 15vw;
-  margin-top: 7.5vh;
+  margin-top: 5vh;
   margin-bottom: 10vh;
   h3 {
+    margin-bottom: 4vh;
     color: $white;
     font-family: 'Jost', sans-serif;
     font-size: 1.25em;
@@ -12,17 +13,46 @@
     }
   }
   .contactlinks {
-    margin-top: 5vh;
+    margin-top: 8vh;
     .email {
-      margin-bottom: 3vh;
+      line-height: 7.5vh;
+      background-position: center;
+      display: flex;
+      height: 6.5vh;
+      width: 20vw;
+      margin-bottom: 2.5vh;
+      color: $blue;
+      transition: color 250ms ease-in-out;
+      -webkit-transition: color 250ms ease-in-out;
+      -moz-transition: color 250ms ease-in-out;
+      -o-transition: color 250ms ease-in-out;
       a {
+        display: flex;
+        margin-left: -1vw;
+        margin-top: -2vh;
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        height: 7.5vh;
+        width: 17.5vw;
+        padding-left: 1vw;
+        padding-right: 0vw;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 1rem;
         font-family: 'Ubuntu';
         color: $blue;
-        transition: all 250ms ease-in-out;
+        transition: color 250ms ease-in-out;
+        -webkit-transition: color 250ms ease-in-out;
+        -moz-transition: color 250ms ease-in-out;
+        -o-transition: color 250ms ease-in-out;
         &:hover {
-          color: $pink;
+          font-size: 0;
+          &:after {
+            content: attr(data-hover);
+            font-size: 1rem;
+            color: rgba(244, 187, 211, 1);
+          }
         }
       }
     }
@@ -37,7 +67,11 @@
     }
     .phone {
       position: relative;
+      p {
+        padding-top: 0.5vh;
+      }
       input {
+        padding-top: 0.5vh;
         font-size: 1em;
         margin-left: 1vw;
         display: inline;
@@ -50,25 +84,59 @@
         font-family: 'Ubuntu';
       }
       button {
+        height: 1.65rem;
         margin-bottom: 0.5vh;
         font-size: 1em;
         cursor: pointer;
         margin-left: 0.6vw;
         color: $blue;
         background-color: $background;
-        border: none;
+        border-style: solid;
+        border-color: $blue;
+        border-width: thin;
         font-family: 'Ubuntu';
         transition: all 250ms ease-in-out;
+        -webkit-transition: all 250ms ease-in-out;
+        -moz-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
         &:hover {
+          border-color: $pink;
           color: $pink;
         }
       }
-      txt {
+      .txt {
         font-family: 'Ubuntu';
         color: $white;
         font-style: italic;
         font-weight: 300;
         font-size: 0.65em;
+      }
+    }
+    .msg {
+      margin-top: 6.5vh;
+      a {
+        display: flex;
+        margin-left: -1vw;
+        margin-top: 0vh;
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        height: 100%;
+        width: 17.5vw;
+        padding-left: 1vw;
+        padding-right: 0vw;
+        text-decoration: none;
+        font-size: 1em;
+        font-family: 'Ubuntu';
+        color: $blue;
+        transition: color 250ms ease-in-out;
+        -webkit-transition: color 250ms ease-in-out;
+        -moz-transition: color 250ms ease-in-out;
+        -o-transition: color 250ms ease-in-out;
+        &:hover {
+          color: $pink;
+        }
       }
     }
   }
