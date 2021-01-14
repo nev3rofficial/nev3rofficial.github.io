@@ -170,6 +170,11 @@
 html {
   font-size: 1.9vh;
 }
+@media (max-width: 600) {
+  html {
+    font-size: 1vh;
+  }
+}
 
 html, body {
   padding: 0;
