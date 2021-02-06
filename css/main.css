@@ -36,6 +36,8 @@
 }
 .contacts .contactlinks {
   margin-top: 8vh;
+  float: left;
+  position: absolute;
 }
 .contacts .contactlinks .email {
   line-height: 7.5vh;
@@ -88,53 +90,6 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.contacts .contactlinks .phone {
-  position: relative;
-}
-.contacts .contactlinks .phone p {
-  padding-top: 0.5vh;
-}
-.contacts .contactlinks .phone input {
-  padding-top: 0.5vh;
-  font-size: 1em;
-  margin-left: 1vw;
-  display: inline;
-  float: left;
-  background-color: #0A0528;
-  border: none;
-  min-width: 5em;
-  max-width: 7em;
-  color: #F4BBD3;
-  font-family: "Ubuntu";
-}
-.contacts .contactlinks .phone button {
-  height: 1.65rem;
-  margin-bottom: 0.5vh;
-  font-size: 1em;
-  cursor: pointer;
-  margin-left: 0.6vw;
-  color: #623CEA;
-  background-color: #0A0528;
-  border-style: solid;
-  border-color: #623CEA;
-  border-width: thin;
-  font-family: "Ubuntu";
-  transition: all 250ms ease-in-out;
-  -webkit-transition: all 250ms ease-in-out;
-  -moz-transition: all 250ms ease-in-out;
-  -o-transition: all 250ms ease-in-out;
-}
-.contacts .contactlinks .phone button:hover {
-  border-color: #F4BBD3;
-  color: #F4BBD3;
-}
-.contacts .contactlinks .phone .txt {
-  font-family: "Ubuntu";
-  color: #F7F7FF;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 0.65em;
-}
 .contacts .contactlinks .msg {
   margin-top: 6.5vh;
 }
@@ -169,11 +124,6 @@
 
 html {
   font-size: 1.9vh;
-}
-@media (max-width: 600) {
-  html {
-    font-size: 1vh;
-  }
 }
 
 html, body {
