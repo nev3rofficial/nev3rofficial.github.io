@@ -1,8 +1,8 @@
 CC Attribution-NonCommercial 3.0 Legal Code
 
-Maya Faulhaber 2020
+Maya Faulhaber 2021
 
-Requested attribution: "These works were made by Maya Faulhaber. I take no credit for them, all credit goes to Maya Faulhaber (Nev3r)."
+Requested attribution: "These works were made by Maya Faulhaber (Nev3r). I take no credit for them. Licensing is the same as the licensing provided by Nev3r"
 
 CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT
 CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES
